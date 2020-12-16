@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Maquetación</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!--ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Google Font Titillium-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600;700&display=swap" rel="stylesheet">
+
+    <!--Splide-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/ed55234dfa.js" crossorigin="anonymous"></script>
+
+    <!--Custom css-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            
+                <a class="navbar-brand" href="#">Bootstrap-Maquetación</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#info-one">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            
+        </div>
+    </nav>
+
+    <!--Header-->
+
+    <header id="header">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-content-left">
+                        <img class="img" src="./img/mobile.svg" alt="mobilesvg">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header-content-right">
+                        <h1 class="text-primary display-5">Lorem ipsum dolor sit.</h1>
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quisquam dicta nobis consectetur natus quo repellendus reprehenderit provident pariatur ex veniam perferendis cum tempore dolore officia non eligendi dolor? Delectus assumenda soluta corporis. Dolore minima commodi fugit aperiam odit dolorem.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Testimonial-->
+    <section class="testimonial" id="testimonial">
+        <div class="container">
+            <p class="h2 mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ea cum quaerat sed, architecto perspiciatis ex quas voluptas officia minima, deserunt accusamus eos aliquid repudiandae placeat ab ut repellendus! Odit repellat maxime suscipit eius, quasi laborum ducimus praesentium natus accusantium placeat dolorem nesciunt harum fuga, tempora nam expedita dolorum laboriosam.</p>
+            <p class="h4">-Milena Z.</p>
+        </div>
+    </section>
+
+    <!--Caroussel-->
+
+    <div class="container mt-5 scroll">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="card-container">
+                            <div class="card-p">
+                                <img class="card-img" src="img/mobile.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+
+                            <div class="card-p">
+                                <img class="card-img" src="img/both.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+
+                            <div class="card-p">
+                                <img class="card-img" src="img/personal.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide">
+                        <div class="card-container">
+                            <div class="card-p">
+                                <img class="card-img" src="img/working.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+
+                            <div class="card-p">
+                                <img class="card-img" src="img/dua.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+
+                            <div class="card-p">
+                                <img class="card-img" src="img/working.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide">
+                        <div class="card-container">
+                            <div class="card-p">
+                                <img class="card-img" src="img/mobile.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+
+                            <div class="card-p">
+                                <img class="card-img" src="img/verified.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+
+                            <div class="card-p">
+                                <img class="card-img" src="img/both.svg">
+                                <div class="card-content">
+                                    <h4>Lorem ipsum dolor sit.</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis totam illum, laudantium odit eius?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!--Info one-->
+    <section class="scroll" id="info-one">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6 my-auto">
+                    <div class="info-right">
+                        <h2 class="text-primary">Lorem ipsum dolor sit.</h2>
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quos quod velit aut neque adipisci nesciunt, provident vero explicabo, ab ex. Cumque nam eius, dolore doloribus reiciendis illo mollitia impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque illo harum? Rerum labore cupiditate quia accusamus excepturi saepe impedit repudiandae, reprehenderit dolores expedita voluptatibus non, dicta eius harum ut! Atque ullam reprehenderit nisi dignissimos molestiae tempore aliquid cumque aliquam.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-2">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-left">
+                        <img class="img" src="img/verified.svg" alt="verifiedsvg">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Info Two-->
+    <section class="scroll" id="info-two">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <h4 class="text-primary">Lorem, ipsum dolor.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, vitae maxime nam fuga sit nemo sed. Corporis consectetur veritatis ab officia. Officiis ipsam obcaecati eveniet incidunt, nostrum id cum, architecto dignissimos perferendis nesciunt ullam. Hic repellat molestias quo ab explicabo.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-primary">Lorem, ipsum dolor.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, vitae maxime nam fuga sit nemo sed. Corporis consectetur veritatis ab officia. Officiis ipsam obcaecati eveniet incidunt, nostrum id cum, architecto dignissimos perferendis nesciunt ullam. Hic repellat molestias quo ab explicabo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="scroll bg-light" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <form class="card my-4">
+                        <div class="card-body">
+                            <div class="form-group mb-3">
+                                <input type="text" placeholder="Name" class="form-control">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="form-group mb-3">
+                                <textarea rows="10" cols="30" placeholder="Message" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-block btn-outline-primary">Enviar</button>
+                        </div>
+                    </form> 
+                    
+                </div>
+
+                <div class="col-md-7">
+
+                    <h4 class="text-center text-secondary my-3">David Ponce :)</h4>
+                    
+                    <div class="icons py-3">
+                        <a href="#" class="text-secondary">
+                            <i class="fab fa-facebook-square icon"></i>
+                        </a>
+                        <a href="#" class="text-secondary">
+                            <i class="fab fa-instagram-square icon"></i>
+                        </a>
+                        <a href="#" class="text-secondary">
+                            <i class="fab fa-youtube-square icon"></i>
+                        </a>
+                        <a href="#" class="text-secondary">
+                            <i class="fab fa-twitter-square icon"></i>
+                        </a>
+                        <a href="#" class="text-secondary">
+                            <i class="fab fa-github-square icon"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!--Splide-->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="main.js"></script>
+    
+</body>
+
+</html>

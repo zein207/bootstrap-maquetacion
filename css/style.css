@@ -1,0 +1,160 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.img{
+    width: 100%;
+}
+
+header {
+    margin-top: 90px;
+}
+
+#testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*CARD*/
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    padding: 5px;
+}
+
+.card-p{
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(151, 151, 151, 0.76);
+    width: 30%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card-p p{
+    margin: auto 13px;
+    font-size: 15px;
+}
+
+.card-img{
+    width: 100%;
+    height: 120px;
+}
+
+/*ICONS*/
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+.icon:hover{
+    color: #0d6efd;
+}
+
+
+@media screen and (max-width:1000px) {
+    .card-p p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:770px) {
+
+    .header-content-right{
+        margin-top: 50px;
+    }
+
+    .header-content-right h1{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .card-img{
+        width: 90%;
+        height: 100px;
+    }
+
+
+    .card-content p{
+        font-size: 11px;
+    }
+
+    .card-content h4{
+        font-size: 20px;
+    }
+
+    .info-left{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+
+    .header-content-right{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #testimonial {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .card-p p{
+        font-size: 13px;
+    }
+
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+    }
+
+    .card-p{
+        width: 70%;
+        margin: 10px;
+    }
+
+    .card-img{
+        width: 85%;
+        height: 70px;
+    }
+
+    .card-content {
+        margin: 20px auto;
+    }
+
+    .card-content p{
+        font-size: 8px;
+    }
+
+    .card-content h4{
+        font-size: 15px;
+    }
+
+    .info-right{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .info-left {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #info-one{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #info-two {
+       margin-left: 20px;
+        margin-right: 20px;
+    }
+}
